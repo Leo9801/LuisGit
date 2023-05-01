@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncriptadorLUIS_OSORIO</title>
+
+    <link rel="stylesheet" href="/estilos/Style.css">
+
+</head>
+
+<body>
+
+    <section class="contenedor_margen">
+
+        <header>
+            <img src="/imagenes/Sin título-1.png" alt="">
+        </header>
+
+        <div class="contenedor_grid">
+
+
+            <div class="Ingreso">
+
+
+
+
+                <textarea class="textArea" name="" cols="30" rows="10"
+                 placeholder="Ingrese el texto aqui"></textarea>
+
+                <p class="reglas"> <span>&#33;</span>
+                    Solo letras minuculas y sin acentos.</p>
+
+                <div class="botones">
+
+                    <input class="boton_encriptar bottonsetings" type="button" value="Encriptar">
+                    <input class="boton_deencriptar bottonsetings" type="button" value="Desencriptar">
+
+                </div>
+
+            </div>
+
+            <div class="Salida">
+
+
+                <textarea name="" id="" cols="30" rows="10"
+                 placeholder=" " class="entrega_texto " desacivado></textarea>
+
+                <!-- el &#10; sirve para dar saltos de liena dentro de un place holder  disabled-->
+
+                <!--<img src="/imagenes/Encryption-Network-PNG-Clipart.png" alt="">-->
+
+                <div class="caja_mensajes">
+                    
+                    <p class="mensaje1">Ningun texto fue encontrado</p>
+                    <p class="mensaje">Por favor ingrese el texto que
+                     desea encriptar o desencriptar</p>
+
+                </div>
+
+                <input type="button" value="COPY" class="copy bottonsetings desacivado">
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="/Script/Code.js"></script>
+    
+</body>
+
+</html>
